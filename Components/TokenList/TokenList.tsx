@@ -1,12 +1,6 @@
 import React from "react";
 
-const TokenList = ({
-	tokenDate,
-	setOpenModel,
-}: {
-	tokenDate: string;
-	setOpenModel: func;
-}) => {
+const TokenList = ({ tokenDate }: { tokenDate: string }) => {
 	return <div>TokenList</div>;
 };
 
