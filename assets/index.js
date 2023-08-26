@@ -1,11 +1,7 @@
 import uniswap from "./uniswap.png";
 import search from "./search.png";
 import ether from "./ether.png";
-import close from "./close.png";
+import Close from "./Close.tsx";
+import close from "./close.svg";
 
-export default {
-	uniswap,
-	search,
-	ether,
-	close,
-};
+export { Close, uniswap, search, ether, close };

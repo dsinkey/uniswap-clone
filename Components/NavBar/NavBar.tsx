@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Style from "./NavBar.module.css";
 import { Model, TokenList } from "../index";
-import images from "../../assets";
+import { uniswap, search, ether } from "../../assets";
 
 const NavBar = () => {
 	const menuItems = [
@@ -30,7 +30,7 @@ const NavBar = () => {
 					<div className={Style.NavBar_box_left}>
 						<div className={Style.NavBar_box_left_img}>
 							<Image
-								src={images.uniswap}
+								src={uniswap}
 								alt="logo"
 								width={50}
 								height={50}
@@ -61,7 +61,7 @@ const NavBar = () => {
 						<div className={Style.NavBar_box_middle_search}>
 							<div className={Style.NavBar_box_middle_search}>
 								<Image
-									src={images.search}
+									src={search}
 									alt="search"
 									width={20}
 									height={20}
@@ -77,7 +77,7 @@ const NavBar = () => {
 						<div className={Style.NavBar_box_right_box}>
 							<div className={Style.NavBar_box_right_box}>
 								<Image
-									src={images.ether}
+									src={ether}
 									alt="network"
 									width={30}
 									height={30}

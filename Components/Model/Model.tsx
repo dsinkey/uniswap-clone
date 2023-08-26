@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Style from "./Model.module.css";
-import images from "../../assets";
+import { close } from "../../assets";
 
 const Model = ({
 	setOpenModel,
@@ -18,11 +18,11 @@ const Model = ({
 					<p>Connect a wallet</p>
 					<div className={Style.Model_box_heading_img}>
 						<Image
-							src={images.close}
+							src={close}
 							style={{ color: "white !important" }}
 							alt="logo"
-							width={50}
-							height={50}
+							width={25}
+							height={25}
 							onClick={() => setOpenModel(false)}
 						/>
 					</div>
