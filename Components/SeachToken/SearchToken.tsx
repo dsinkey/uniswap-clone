@@ -1,7 +1,7 @@
 import React from "react";
 
 const SearchToken = () => {
-	return <div>Hero</div>;
+	return <div>SearchToken</div>;
 };
 
 export default SearchToken;

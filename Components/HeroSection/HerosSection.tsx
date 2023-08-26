@@ -83,7 +83,7 @@ const HerosSection = ({
 					</button>
 				)}
 			</div>
-			{openSetting && <Token openSetting={openSetting} />}
+			{openSetting && <Token setOpenSetting={setOpenSetting} />}
 			{openToken && (
 				<SearchToken
 					openToken={setOpenToken}
