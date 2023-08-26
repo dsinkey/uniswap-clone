@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState, useEffect, useContext } from "react";
+
+import { HerosSection } from "@/Components/index";
 
 const Home = () => {
-	return <div>Home</div>;
+	return (
+		<div>
+			<HerosSection accounts="hey" tokenData="data" />
+		</div>
+	);
 };
 
 export default Home;

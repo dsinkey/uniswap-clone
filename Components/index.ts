@@ -5,4 +5,6 @@ import SearchToken from "./SeachToken/SearchToken";
 import TokenList from "./TokenList/TokenList";
 import Toggle from "./Toggle/Toggle";
 
+export default { HerosSection, Model, NavBar, SearchToken, Toggle, TokenList };
+
 export { HerosSection, Model, NavBar, SearchToken, Toggle, TokenList };
